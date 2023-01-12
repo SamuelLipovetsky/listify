@@ -3,7 +3,8 @@ import { connect } from "react-redux";
 import "./logo.css";
 import Logo from "./Logo.js";
 const client_id = "ddda1eb78e79438ea6a89a58bfbdcdc5";
-const redirect_uri = "http://localhost:3000/make_requests/";
+// const redirect_uri = "http://localhost:3000/make_requests/";
+const redirect_uri ="https://samuellipovetsky.github.io/listify/make_requests/"
 // const redirect_uri = "https://listi-fy.herokuapp.com/make_requests/";
 const scope =
   "user-read-email+" +

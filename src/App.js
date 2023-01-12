@@ -28,8 +28,8 @@ export class App extends Component {
             <Alert></Alert>
             <Router>
               <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/(make_requests)/" children={<MakeRequest />} />
+                <Route exact path="/listify" component={Home} />
+                <Route path="/(listify/make_requests)/" children={<MakeRequest />} />
               </Switch>
             </Router>
           </AlertProvider>
