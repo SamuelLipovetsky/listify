@@ -1,0 +1,12 @@
+.logo {
+  transition: fill 1s;
+}
+.custom-btn {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+.custom-btn:hover {
+  background-color: #1db954;
+  color: white !important;
+  border-color: #1db954 !important;
+}
